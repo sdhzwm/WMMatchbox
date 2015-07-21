@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97A9C7631B5E23D200F3B71F /* WMNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A9C7621B5E23D200F3B71F /* WMNavigationController.swift */; };
 		97AB9FB11B5DF1BA007EEC07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97AB9FAF1B5DF1BA007EEC07 /* Main.storyboard */; };
 		97AB9FB31B5DF1BA007EEC07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97AB9FB21B5DF1BA007EEC07 /* Assets.xcassets */; };
 		97AB9FB61B5DF1BA007EEC07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97AB9FB41B5DF1BA007EEC07 /* LaunchScreen.storyboard */; };
 		97AB9FE81B5DF327007EEC07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AB9FCC1B5DF327007EEC07 /* ViewController.swift */; };
 		97AB9FE91B5DF327007EEC07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AB9FDA1B5DF327007EEC07 /* AppDelegate.swift */; };
+		97AB9FEB1B5DF637007EEC07 /* WMMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AB9FEA1B5DF637007EEC07 /* WMMainTabBarController.swift */; };
+		97AB9FED1B5DF710007EEC07 /* WMFirendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AB9FEC1B5DF710007EEC07 /* WMFirendController.swift */; };
+		97AB9FEF1B5DF728007EEC07 /* WMMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AB9FEE1B5DF728007EEC07 /* WMMessageController.swift */; };
+		97AB9FF11B5DF73A007EEC07 /* WMOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AB9FF01B5DF73A007EEC07 /* WMOneController.swift */; };
+		97AB9FF31B5DF750007EEC07 /* WMPrivateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AB9FF21B5DF750007EEC07 /* WMPrivateController.swift */; };
+		97AB9FF51B5DF762007EEC07 /* WMTopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AB9FF41B5DF762007EEC07 /* WMTopController.swift */; };
+		97AB9FF71B5E0A02007EEC07 /* WMTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AB9FF61B5E0A02007EEC07 /* WMTabBar.swift */; };
+		97AB9FF91B5E1041007EEC07 /* WMTabBarBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AB9FF81B5E1041007EEC07 /* WMTabBarBtn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		97A9C7621B5E23D200F3B71F /* WMNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMNavigationController.swift; sourceTree = "<group>"; };
 		97AB9FA81B5DF1BA007EEC07 /* WMMatchbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WMMatchbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97AB9FB01B5DF1BA007EEC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97AB9FB21B5DF1BA007EEC07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -22,6 +32,14 @@
 		97AB9FB71B5DF1BA007EEC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		97AB9FCC1B5DF327007EEC07 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97AB9FDA1B5DF327007EEC07 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97AB9FEA1B5DF637007EEC07 /* WMMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMMainTabBarController.swift; sourceTree = "<group>"; };
+		97AB9FEC1B5DF710007EEC07 /* WMFirendController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMFirendController.swift; sourceTree = "<group>"; };
+		97AB9FEE1B5DF728007EEC07 /* WMMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMMessageController.swift; sourceTree = "<group>"; };
+		97AB9FF01B5DF73A007EEC07 /* WMOneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMOneController.swift; sourceTree = "<group>"; };
+		97AB9FF21B5DF750007EEC07 /* WMPrivateController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMPrivateController.swift; sourceTree = "<group>"; };
+		97AB9FF41B5DF762007EEC07 /* WMTopController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMTopController.swift; sourceTree = "<group>"; };
+		97AB9FF61B5E0A02007EEC07 /* WMTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMTabBar.swift; sourceTree = "<group>"; };
+		97AB9FF81B5E1041007EEC07 /* WMTabBarBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WMTabBarBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +109,7 @@
 		97AB9FBF1B5DF327007EEC07 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				97AB9FEC1B5DF710007EEC07 /* WMFirendController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -131,6 +150,8 @@
 		97AB9FC41B5DF327007EEC07 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				97AB9FEA1B5DF637007EEC07 /* WMMainTabBarController.swift */,
+				97A9C7621B5E23D200F3B71F /* WMNavigationController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -152,6 +173,8 @@
 		97AB9FC71B5DF327007EEC07 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				97AB9FF61B5E0A02007EEC07 /* WMTabBar.swift */,
+				97AB9FF81B5E1041007EEC07 /* WMTabBarBtn.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -170,6 +193,7 @@
 		97AB9FCE1B5DF327007EEC07 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				97AB9FEE1B5DF728007EEC07 /* WMMessageController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -209,6 +233,7 @@
 		97AB9FD31B5DF327007EEC07 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				97AB9FF01B5DF73A007EEC07 /* WMOneController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -280,6 +305,7 @@
 		97AB9FDD1B5DF327007EEC07 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				97AB9FF21B5DF750007EEC07 /* WMPrivateController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -319,6 +345,7 @@
 		97AB9FE21B5DF327007EEC07 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				97AB9FF41B5DF762007EEC07 /* WMTopController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -414,8 +441,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97AB9FF91B5E1041007EEC07 /* WMTabBarBtn.swift in Sources */,
+				97AB9FEB1B5DF637007EEC07 /* WMMainTabBarController.swift in Sources */,
+				97AB9FF71B5E0A02007EEC07 /* WMTabBar.swift in Sources */,
 				97AB9FE91B5DF327007EEC07 /* AppDelegate.swift in Sources */,
+				97AB9FF11B5DF73A007EEC07 /* WMOneController.swift in Sources */,
+				97AB9FF51B5DF762007EEC07 /* WMTopController.swift in Sources */,
+				97AB9FF31B5DF750007EEC07 /* WMPrivateController.swift in Sources */,
+				97AB9FEF1B5DF728007EEC07 /* WMMessageController.swift in Sources */,
+				97A9C7631B5E23D200F3B71F /* WMNavigationController.swift in Sources */,
 				97AB9FE81B5DF327007EEC07 /* ViewController.swift in Sources */,
+				97AB9FED1B5DF710007EEC07 /* WMFirendController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -565,6 +601,7 @@
 				97AB9FBC1B5DF1BA007EEC07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

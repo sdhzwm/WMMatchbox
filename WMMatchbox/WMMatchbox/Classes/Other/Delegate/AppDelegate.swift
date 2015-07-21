@@ -13,9 +13,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        //设置window
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        //设置导航控制器，后期会加上版本判断以及新特性等功能
+        let tabbarVC = WMMainTabBarController()
+        //设置根控制器
+        self.window?.rootViewController = tabbarVC
+        self.window?.makeKeyAndVisible()
         return true
     }
 
