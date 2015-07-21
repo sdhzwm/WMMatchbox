@@ -10,8 +10,6 @@
 		97AB9FB11B5DF1BA007EEC07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97AB9FAF1B5DF1BA007EEC07 /* Main.storyboard */; };
 		97AB9FB31B5DF1BA007EEC07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97AB9FB21B5DF1BA007EEC07 /* Assets.xcassets */; };
 		97AB9FB61B5DF1BA007EEC07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97AB9FB41B5DF1BA007EEC07 /* LaunchScreen.storyboard */; };
-		97AB9FE61B5DF327007EEC07 /* WMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AB9FC91B5DF327007EEC07 /* WMTabBar.m */; };
-		97AB9FE71B5DF327007EEC07 /* WMTabBarBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 97AB9FCB1B5DF327007EEC07 /* WMTabBarBtn.m */; };
 		97AB9FE81B5DF327007EEC07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AB9FCC1B5DF327007EEC07 /* ViewController.swift */; };
 		97AB9FE91B5DF327007EEC07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97AB9FDA1B5DF327007EEC07 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -22,10 +20,6 @@
 		97AB9FB21B5DF1BA007EEC07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97AB9FB51B5DF1BA007EEC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97AB9FB71B5DF1BA007EEC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97AB9FC81B5DF327007EEC07 /* WMTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTabBar.h; sourceTree = "<group>"; };
-		97AB9FC91B5DF327007EEC07 /* WMTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTabBar.m; sourceTree = "<group>"; };
-		97AB9FCA1B5DF327007EEC07 /* WMTabBarBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMTabBarBtn.h; sourceTree = "<group>"; };
-		97AB9FCB1B5DF327007EEC07 /* WMTabBarBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMTabBarBtn.m; sourceTree = "<group>"; };
 		97AB9FCC1B5DF327007EEC07 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		97AB9FDA1B5DF327007EEC07 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,10 +152,6 @@
 		97AB9FC71B5DF327007EEC07 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				97AB9FC81B5DF327007EEC07 /* WMTabBar.h */,
-				97AB9FC91B5DF327007EEC07 /* WMTabBar.m */,
-				97AB9FCA1B5DF327007EEC07 /* WMTabBarBtn.h */,
-				97AB9FCB1B5DF327007EEC07 /* WMTabBarBtn.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -426,8 +416,6 @@
 			files = (
 				97AB9FE91B5DF327007EEC07 /* AppDelegate.swift in Sources */,
 				97AB9FE81B5DF327007EEC07 /* ViewController.swift in Sources */,
-				97AB9FE71B5DF327007EEC07 /* WMTabBarBtn.m in Sources */,
-				97AB9FE61B5DF327007EEC07 /* WMTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
